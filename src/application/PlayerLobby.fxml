@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="540.0" prefWidth="960.0" styleClass="body" stylesheets="@LobbyRoom.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.PlayerLobbyController">
+   <children>
+      <Label fx:id="playerIndex" layoutX="417.0" layoutY="130.0" text="Player1" textFill="WHITE">
+         <font>
+            <Font name="Segoe UI Black" size="46.0" />
+         </font>
+      </Label>
+      <TextField fx:id="playerName" layoutX="373.0" layoutY="210.0" prefHeight="41.0" prefWidth="240.0" />
+      <ImageView fx:id="backBtn" fitHeight="38.0" fitWidth="48.0" layoutX="26.0" layoutY="23.0" onMouseClicked="#switchToMainScene" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../res/images/backBtn.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <ImageView fx:id="confirm" fitHeight="91.0" fitWidth="117.0" layoutX="493.0" layoutY="270.0" onMouseClicked="#confirm" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../res/images/Confirm.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

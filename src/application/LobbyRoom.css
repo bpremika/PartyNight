@@ -1,0 +1,7 @@
+.body{
+	-fx-background-image: url("/images/lobbyRoom.png");
+    -fx-background-repeat: no-repeat;   
+    -fx-background-size: cover;
+    -fx-background-position: center;
+}
+

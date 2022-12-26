@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="540.0" prefWidth="960.0" styleClass="body" stylesheets="@LobbyRoom.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.LobbyController">
+   <children>
+      <ImageView fx:id="lobbyTitle" fitHeight="86.0" fitWidth="234.0" layoutX="443.0" layoutY="136.0" pickOnBounds="true" preserveRatio="true" />
+      <ChoiceBox fx:id="numberChoice" layoutX="626.0" layoutY="244.0" prefHeight="25.0" prefWidth="83.0" />
+      <Label fx:id="numberOfPlayer" layoutX="443.0" layoutY="245.0" text="NUMBER OF PLAYER :" textFill="WHITE">
+         <font>
+            <Font />
+         </font>
+      </Label>
+      <ImageView fx:id="leftImage" fitHeight="339.0" fitWidth="218.0" layoutX="204.0" layoutY="136.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../res/images/character.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="goBtn" fitHeight="48.0" fitWidth="107.0" layoutX="443.0" layoutY="292.0" onMouseClicked="#switchToPlayerLobby" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../res/images/Let'sGo.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <ImageView fx:id="backBtn" fitHeight="38.0" fitWidth="48.0" layoutX="26.0" layoutY="23.0" onMouseClicked="#switchToMainScene" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../res/images/backBtn.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+   </children>
+</AnchorPane>

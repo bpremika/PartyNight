@@ -1,0 +1,55 @@
+.body{
+	-fx-background-image: url("/images/backgroundScene.jpg");
+    -fx-background-repeat: no-repeat;   
+    -fx-background-size: cover;
+    -fx-background-position: center;
+}
+
+.startBtn {
+	-fx-background-image: url("/images/startBtn.png");
+	-fx-background-repeat: no-repeat;   
+    -fx-background-size: contain;
+    -fx-background-position: center;
+    -fx-background-radius:100px;
+}
+.startBtn:hover{
+	-fx-background-image: url("/images/start_hover.png");
+	-fx-background-repeat: no-repeat;   
+    -fx-background-size: contain;
+    -fx-background-position: center;
+}
+.rulesBtn {
+	
+	-fx-background-image: url("/images/rules.png");
+	-fx-background-repeat: no-repeat;   
+    -fx-background-size: contain;
+    -fx-background-position: center;
+    -fx-background-radius:100px;
+ 
+}
+.rulesBtn:hover{
+	-fx-background-image: url("/images/rules_hover.png");
+	-fx-background-repeat: no-repeat;   
+    -fx-background-size: contain;
+    -fx-background-position: center;
+    
+}
+
+.exitBtn {
+	
+	-fx-background-image: url("/images/exit.png");
+	-fx-background-repeat: no-repeat;   
+    -fx-background-size: contain;
+    -fx-background-position: center;
+    -fx-background-radius:100px;
+}
+.exitBtn:hover{
+	-fx-background-image: url("/images/exit_hover.png");
+	-fx-background-repeat: no-repeat;   
+    -fx-background-size: contain;
+    -fx-background-position: center;
+}
+.menuContainer{
+	-fx-background-color: white;
+	-fx-background-radius:20px;
+}
